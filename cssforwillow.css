@@ -1,15 +1,65 @@
 body {
-  /* background-image: url("black-damask-background-md.png"); */
+  background-image: url(xv.png);
   background-color: #006868;
+
 }
-div {
-  background-color: rgba(252, 252, 252, 0.3);
+.text {
+  background-color: rgba(252, 252, 252, 0.4);
+  padding: 15px;
+  
 }
 p {
   font-size: 150%;
   font-family: Arial, sans-serif;
 }
 
+@font-face {
+  font-family: 'willowtext';
+  src: url('Mathanifo Script_dafont.ttf') format('truetype');
+}
+.logo{
+  font-family: willowtext !important;
+  font-size: 300% !important;
+  width: 400px !important;
+  margin:0 auto !important;
+  text-align: center !important;
+  margin-top: -120px !important;
+}
+
+.willowlogo{
+  margin: auto !important;
+  text-align: center !important;
+  height: 100px !important;
+  width: auto !important;
+  float: left;
+}
+
+.container{
+  width: 85%;
+  height: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  text-align: center;
+}
+
+#homePhoto{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+  height: 85%;
+}
+
+.bottomCenter{
+  position: absolute;
+  bottom: 2px;
+  right: 10px;
+  left: 10px;
+  font-size: 500%;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
 /* The side navigation menu */
 .sidenav {
     height: 100%; /* 100% Full-height */
@@ -36,7 +86,7 @@ p {
 
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
-    color: #f1f1f1;
+    color: #b7b7b7;
 }
 
 /* Position and style the close button (top right corner) */
@@ -60,6 +110,13 @@ p {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
 }
-#menuButton{
-  font-size: 400%;
+.menuButton{
+  font-size: 400% !important;
+  color: white !important;
 }
+#foodDiscount b {
+  font-size: 150%;
+}
+.mr-3 {
+ width: 12%;
+ hight: 12%
